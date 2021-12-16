@@ -1,0 +1,14 @@
+text = input()
+dict = {}
+
+
+for x in text:
+    y = 0
+    for a in text:
+        if a == x:
+            y += 1
+        else:
+            y += 0
+    dict[x] = y
+print(dict)
+
