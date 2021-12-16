@@ -1,0 +1,12 @@
+# Spell backwards
+def spell(txt):
+    y = 1
+    while y <= len(txt):
+        print(txt[len(txt)-y])
+        y += 1
+
+
+
+
+txt = input()
+spell(txt)
